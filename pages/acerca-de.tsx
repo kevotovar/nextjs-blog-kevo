@@ -4,8 +4,6 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Link from "../src/Link";
-import ProTip from "../src/ProTip";
-import Copyright from "../src/Copyright";
 
 const About: NextPage = () => {
   return (
@@ -21,7 +19,7 @@ const About: NextPage = () => {
       >
         <Typography variant="h4" component="h1" gutterBottom>
           Soy un desarrollador web trabajando en{" "}
-          <a href="https://oyster.io/" target="_blank">
+          <a href="https://oyster.io/" target="_blank" rel="noreferrer">
             Oyster
           </a>
         </Typography>
@@ -30,8 +28,6 @@ const About: NextPage = () => {
             Ir al inicio
           </Button>
         </Box>
-        <ProTip />
-        <Copyright />
       </Box>
     </Container>
   );
